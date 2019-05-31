@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Home/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Home,
+    Footer
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+body {
+  background-color:#343a40;
+  /* background-color: hsla(0,0%,98%,1.0);        ALTERNATIVE COLOR*/
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 450px;
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
