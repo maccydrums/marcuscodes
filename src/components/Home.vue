@@ -1,7 +1,6 @@
 <template>
   <div class="wrapper">
     <h1>Marcus Andersson</h1>
-    <h2>Frontend developer</h2>
     <vue-typed-js :strings="['Under construction...']">
       <h3><span class="typing"></span></h3>
     </vue-typed-js>
