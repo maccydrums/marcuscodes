@@ -84,4 +84,9 @@ export default {
     width: 90%;
   }
 }
+  @media screen and (min-width: 1400px) {
+    .wrapper h2 {
+      margin-bottom: -120px;
+    }
+  }
 </style>
