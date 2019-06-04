@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div classname="main">
-      <li class="pv3 ph2 ma0 link grow">
+      <!-- <li class="pv3 ph2 ma0 link grow">
         <a href="http://www.instagram.com/marcusanderssson_" target="_blank">
         <font-awesome-icon :icon="['fab', 'instagram']" size="3x" />
         </a>
@@ -20,7 +20,7 @@
         <a href="mailto:marcusprivat@live.com">
         <font-awesome-icon :icon="['fa', 'envelope']" size="3x" />
         </a>
-      </li>
+      </li> -->
     </div>
     <div classname="quote">
       <h5>"Less, but better." <br/> - Dieter Rams</h5>
@@ -42,11 +42,8 @@ export default {
   justify-content: flex-start;
   align-items: center;
   background-color: transparnet;
-  color: white;
-  /* color: rgba( 45, 55, 65, .85 );          ALTERNATIVE FONT-COLOR*/
   width: 100%;
-  height: 100px;
-  margin-top: -30px;
+  height: 120px;
 }
 ul {
   list-style-type: none;

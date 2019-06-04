@@ -1,7 +1,5 @@
 <template>
   <div class="wrapper">
-    <h1>Marcus Andersson</h1>
-    <h2>Frontend developer</h2>
     <vue-typed-js :strings="['Under construction...']">
       <h3><span class="typing"></span></h3>
     </vue-typed-js>
@@ -20,9 +18,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
-    /* color: hsla(0,0%,20%,1.0);  ---- FONT-COLOR*/
-    /* color: rgba( 45, 55, 65, .85 );  FONT-COLOR*/
+    /* color: hsla(0,0%,20%,1.0);  */
     width: 100%;
     height: 100%;
   }
@@ -38,6 +34,7 @@ export default {
     margin-left: 10px;
     text-align: center;
     font-weight: 400;
+    font-size: 25px;
   }
   @media screen and (max-width: 500px) {
   h1 {
