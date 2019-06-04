@@ -41,12 +41,11 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: transparnet;
-  color: white;
+  background-color: transparent;
+  color: hsla(0,0%,20%,1.0);
   /* color: rgba( 45, 55, 65, .85 );          ALTERNATIVE FONT-COLOR*/
   width: 100%;
-  height: 100px;
-  margin-top: -30px;
+  height: 150px;
 }
 ul {
   list-style-type: none;
@@ -57,16 +56,18 @@ li {
   margin: 0 10px;
 }
 a:hover {
-  color: #42b983;
+  color: rgb(0, 0, 0);
 }
 a {
-  color: #42b9838f;
+  color: hsla(0,0%,20%,1.0);
+  font-size: 13px;
   /* color: rgba( 45, 55, 65, .85 );           ALTERNATIVE COLOR*/
   text-decoration: none;
 }
 h5 {
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 13px;
+    text-align: center;
   }
 </style>

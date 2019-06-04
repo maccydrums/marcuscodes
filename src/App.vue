@@ -21,16 +21,20 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 body {
-  background-color:#343a40;
+  /* background-color:#343a40; */
+  background-color: white;
+  color: hsla(0,0%,20%,1.0);
+
   /* background-color: hsla(0,0%,98%,1.0);        ALTERNATIVE COLOR*/
 }
 #app {
-  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Avenir', san-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 450px;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
