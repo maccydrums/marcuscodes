@@ -32,7 +32,7 @@ export default {
   }
   h2 {
     font-weight: 400;
-    margin-bottom: -15px;
+    margin-bottom: -25px;
     margin-top: 45px;
   }
   h3 {
