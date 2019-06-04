@@ -4,6 +4,7 @@
     <vue-typed-js :strings="['Under construction...']">
       <h3><span class="typing"></span></h3>
     </vue-typed-js>
+    <h2>Want to get in contact?</h2>
   </div>
 </template>
 
@@ -31,7 +32,8 @@ export default {
   }
   h2 {
     font-weight: 400;
-    margin-top: -30px;
+    margin-bottom: -15px;
+    margin-top: 45px;
   }
   h3 {
     margin-left: 10px;
@@ -43,7 +45,8 @@ export default {
     font-size: 35px;
   }
   h2 {
-    margin-top: -20px;
+    margin-top: 45px;
+    margin-bottom: -70px;
     font-size: 22px;
   }
 }
