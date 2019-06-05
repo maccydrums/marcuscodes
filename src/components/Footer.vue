@@ -21,6 +21,11 @@
         <font-awesome-icon :icon="['fa', 'envelope']" size="3x" />
         </a>
       </li>
+      <li class="pv3 ph2 ma0 link grow">
+        <a href="https://www.twitter.com/maccydrums">
+          <font-awesome-icon :icon="['fab', 'twitter']" size"3x" />
+        </a>
+      </li>
     </div>
     <div classname="quote">
       <h5>"Less, but better." <br/> - Dieter Rams</h5>
