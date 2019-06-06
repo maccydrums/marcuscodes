@@ -8,29 +8,205 @@
     <title>Marcus Andersson - Frontend developer</title>
     <meta name="twitter:card" content="summary" />
     <meta name="author" content="Marcus Andersson" />
-    <meta name="keywords" content="frontend, developer, web, website, designer, marcus, andersson, marcuscodes, codes, växjö">
+    <meta
+      name="keywords"
+      content="frontend, developer, web, website, designer, marcus, andersson, marcuscodes, codes, växjö"
+    />
 
     <meta property="og:title" content="Marcus Andersson" />
     <meta name="twitter:title" content="Marcus Andersson" />
 
-    <meta name="description" content="Frontend developer that builds and designs websites. Based in Växjö, Sweden." />
-    <meta property="og:description" content="Frontend developer that builds and designs websites. Based in Växjö, Sweden." />
-    <meta name="twitter:description" content="Frontend developer that builds and designs websites. Based in Växjö, Sweden." />
+    <meta
+      name="description"
+      content="Frontend developer that builds and designs websites. Based in Växjö, Sweden."
+    />
+    <meta
+      property="og:description"
+      content="Frontend developer that builds and designs websites. Based in Växjö, Sweden."
+    />
+    <meta
+      name="twitter:description"
+      content="Frontend developer that builds and designs websites. Based in Växjö, Sweden."
+    />
 
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://www.marcuscodes.se"/>
-    <meta name="twitter:url" content="http://www.marcuscodes.se" />    
-    <meta property="og:site_name" content="Marcus Andersson"/>
-    
-    <meta property="og:image" content="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/61700597_10214065196840102_8935481319601733632_o.jpg?_nc_cat=105&_nc_ht=scontent-arn2-1.xx&oh=be83e1cc8983ca39fed98403d33af836&oe=5D876101"/>
-    <meta name="twitter:image" content="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/61700597_10214065196840102_8935481319601733632_o.jpg?_nc_cat=105&_nc_ht=scontent-arn2-1.xx&oh=be83e1cc8983ca39fed98403d33af836&oe=5D876101"/>
-        
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.marcuscodes.se" />
+    <meta name="twitter:url" content="http://www.marcuscodes.se" />
+    <meta property="og:site_name" content="Marcus Andersson" />
+
+    <meta
+      property="og:image"
+      content="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/61700597_10214065196840102_8935481319601733632_o.jpg?_nc_cat=105&_nc_ht=scontent-arn2-1.xx&oh=be83e1cc8983ca39fed98403d33af836&oe=5D876101"
+    />
+    <meta
+      name="twitter:image"
+      content="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/61700597_10214065196840102_8935481319601733632_o.jpg?_nc_cat=105&_nc_ht=scontent-arn2-1.xx&oh=be83e1cc8983ca39fed98403d33af836&oe=5D876101"
+    />
 
     <!-- <link rel="favicon" href="<%= BASE_URL %>favicon.ico"> -->
     <link rel="icon" href="./favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+    />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <!-- <link rel="canonical" href="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/61700597_10214065196840102_8935481319601733632_o.jpg?_nc_cat=105&_nc_ht=scontent-arn2-1.xx&oh=be83e1cc8983ca39fed98403d33af836&oe=5D876101"> -->
+
+    <style>
+      .hero {
+        background: black
+          url("http://www.porsche.se/globalassets/modeller/911/911-speedster/galleri/18.jpg")
+          center / cover;
+        font-family: 'Avenir', san-serif;
+      }
+
+      .center,
+      .center-column,
+      .top,
+      .right,
+      .bottom,
+      .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .center-column {
+        flex-direction: column;
+      }
+
+      .top {
+        align-items: flex-start;
+      }
+      .right {
+        justify-content: flex-end;
+      }
+      .bottom {
+        align-items: flex-end;
+      }
+      .left {
+        justify-content: flex-start;
+      }
+
+      .single-spaced,
+      .single-spaced * {
+        line-height: 1;
+      }
+
+      #a { grid-area: a; }
+      #b { grid-area: b; }
+      #c { grid-area: c; }
+      #d { grid-area: d; }
+      #e { grid-area: e; }
+
+      #grid {
+          display: grid;
+          grid-template-areas:
+              "a a a a"
+              "b c d e";
+
+          grid-row-gap: 1rem;
+      }
+      @media (max-width: 512px) {
+        #grid {
+            grid-template-areas:
+                "a a a"
+                "b c d"
+                "e e e";
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .desktop {
+          display: none;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .hero {
+          background: black
+            url("http://www.porsche.se/globalassets/modeller/911/911-speedster/galleri/18.jpg")
+            center / cover;
+          background-position: 60%;
+        }
+      }
+      @media (max-width: 768px) {
+        .tablet {
+          display: none;
+        }
+        .hero {
+          background: black
+            url("http://www.porsche.se/globalassets/modeller/911/911-speedster/galleri/18.jpg")
+            center / cover;
+          background-position: 59%;
+        }
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
+    <!-- <div id="app"></div> -->
+
+    <!-- .hero -->
+    <section class="hero is-fullheight">
+      <div class="hero-head">
+        <div class="columns is-mobile is-marginless heading has-text-weight-bold" style="font-size:12px;">
+          <div class="column left">
+            <p class="navbar-item has-text-white">PORSCHE</p>
+          </div>
+          <div class="column center tablet">
+            <p class="navbar-item has-text-white">718 </p>
+            <p class="navbar-item has-text-white">911</p>
+            <p class="navbar-item has-text-white">Panamera</p>
+            <p class="navbar-item has-text-white">Macan</p>
+            <p class="navbar-item has-text-white">Cayenne</p>
+          </div>
+          <div class="column right">
+            <figure class="navbar-item image has-text-white center">
+              <i class="fas fa-bars" style="width: 1rem; height: 1rem;"></i>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <header class="hero-body">
+        <div class="is-overlay has-text-centered single-spaced" style="top: 140px;">
+          <h1 class="subtitle is-4 has-text-weight-light has-text-white">Porsche</h1>
+          <h2 class="title is-1 has-text-white">911 Speedster</h2>
+        </div>
+      </header>
+
+      <footer class="hero-foot center has-text-white" style="padding: 2rem;">
+        <div id="grid" style="width: 768px;">
+          <div id="a" class="center-column">
+            <p class="tablet has-text-centered has-text-white">
+              ​The 2019 Porsche 911 Speedster takes the best bits from the 911 GT3 Touring, but tones them down. Combined with a sexy body, this might be the most balanced last-gen 911 around.
+            </p>
+          </div>
+          <div id="b" class="center-column">
+            <p class="title has-text-white">
+              <i class="fas fa-tachometer-alt has-text-grey-light"
+                style="width: 0.75em; height: 0.75em;"></i>
+              4.0<span class="is-size-5">s</span>
+            </p>
+            <p class="subtitle has-text-white is-7">0-100 km/h</p>
+          </div>
+          <div id="c" class="center-column" style="border-left: 1px solid gray;">
+            <p class="title has-text-white"><span class="is-size-5">+</span>310 <span class="is-size-5">km/h</span></p>
+            <p class="subtitle is-7 has-text-white">Top Speed</p>
+          </div>
+          <div id="d" class="center-column" style="border-left: 1px solid gray;">
+            <p class="title has-text-white">510 </span><span class="is-size-5">hk</span></p>
+            <p class="subtitle is-7 has-text-white">Effekt:</p>
+          </div>
+          <div id="e" class="center-column">
+            <a class="button is-danger is-inverted is-rounded is-outlined has-text-weight-bold"
+              style="width: 100%; border: 0.15em solid white;">
+              Bygg din egen:
+            </a>
+          </div>
+        </div>
+      </footer>
+
+    </section>
   </body>
 </html>
