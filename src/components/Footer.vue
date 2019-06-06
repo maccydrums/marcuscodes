@@ -41,9 +41,17 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+<<<<<<< HEAD
   background-color: transparnet;
   width: 100%;
   height: 120px;
+=======
+  background-color: transparent;
+  color: hsla(0,0%,20%,1.0);
+  /* color: rgba( 45, 55, 65, .85 );          ALTERNATIVE FONT-COLOR*/
+  width: 100%;
+  height: 150px;
+>>>>>>> 7dd6cc49ac815d79a6fd779708c30a8d7af02d57
 }
 ul {
   list-style-type: none;
@@ -54,16 +62,18 @@ li {
   margin: 0 10px;
 }
 a:hover {
-  color: #42b983;
+  color: rgb(0, 0, 0);
 }
 a {
-  color: #42b9838f;
+  color: hsla(0,0%,20%,1.0);
+  font-size: 13px;
   /* color: rgba( 45, 55, 65, .85 );           ALTERNATIVE COLOR*/
   text-decoration: none;
 }
 h5 {
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 13px;
+    text-align: center;
   }
 </style>
