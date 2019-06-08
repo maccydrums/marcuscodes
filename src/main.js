@@ -13,7 +13,7 @@ library.add(
   faEnvelope,
   faTwitter
 )
- 
+
 Vue.use(VueTypedJs);
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
