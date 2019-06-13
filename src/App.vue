@@ -29,7 +29,7 @@
       </div>
     </nav>
   </div> -->
-
+<!-- 
   <nav class="navbar is-light" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" @click="isOpen = !isOpen" v-bind:class="{'is-active': isOpen}">
@@ -46,17 +46,25 @@
                 <router-link to="/portfolio" class="navbar-item is-tab">Portfolio</router-link>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
 
 
     <Home/>
+    <About/>
+    <Skills/>
+    <Portfolio/>
+    <Contact/>
     <Footer/>
   </div>
 </template>
 
 <script>
 import Home from './components/Home.vue';
+import About from './components/About.vue';
+import Skills from './components/Skills.vue';
+import Contact from './components/Contact.vue';
+import Portfolio from './components/Portfolio.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -68,6 +76,10 @@ export default {
   },
   components: {
     Home,
+    About,
+    Skills,
+    Portfolio,
+    Contact,
     Footer,
   }
 }
@@ -86,14 +98,13 @@ body {
   font-family: 'Avenir', san-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 450px;
+  min-height: 1000px;
   width: 100%;
-  margin-top: 70px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
 } 
-
+/* 
 .navbar {
   margin-top: -50px;
 }
@@ -112,7 +123,7 @@ body {
 .navbar-item.active {
   background-color: #f7f7f7;
   font-weight: 700;
-} 
+}  */
 @media screen and (min-width: 1400px) {
   #app {
     height: 650px;
@@ -121,9 +132,6 @@ body {
 @media screen and (min-width: 2000px) {
   #app {
     height: 650px;
-  }
-  .mobile {
-    display: none;
   }
 }
 

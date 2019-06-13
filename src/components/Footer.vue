@@ -1,30 +1,14 @@
 <template>
-  <div class="wrapper">
-    <div classname="main">
-      <li class="pv3 ph2 ma0 link grow">
-        <a href="http://www.instagram.com/marcusanderssson_" target="_blank">
-        <font-awesome-icon :icon="['fab', 'instagram']" size="3x" />
-        </a>
-      </li>
-      <li class="pv3 ph2 ma0 link grow">
-        <a href="https://www.linkedin.com/in/marcus-andersson-78aa2316a/" target="_blank">
-        <font-awesome-icon :icon="['fab', 'linkedin-in']" size="3x" />
-        </a>
-      </li>
-      <li class="pv3 ph2 ma0 link grow">
-        <a href="http://www.github.com/maccydrums" target="_blank">
-        <font-awesome-icon :icon="['fab', 'github']" size="3x" />
-        </a>
-      </li>
-      <li class="pv3 ph2 ma0 link grow">
-        <a href="mailto:marcusprivat@live.com">
-        <font-awesome-icon :icon="['fa', 'envelope']" size="3x" />
-        </a>
-      </li>
-    </div>
-    <div classname="quote">
-      <h5>"Less, but better." <br/> - Dieter Rams</h5>
-    </div>
+  <div class="footer">
+      <i class="fab fa-vuejs"></i>
+      <i class="fab fa-react"></i>
+      <i class="fab fa-angular"></i>
+      <i class="fab fa-git-square"></i>
+      <i class="fab fa-npm"></i>
+      <i class="fab fa-node"></i>
+      <i class="fab fa-js"></i>
+      <i class="fab fa-docker"></i>
+      <i class="fab fa-digital-ocean"></i>
   </div>
 </template>
 
@@ -34,40 +18,19 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.wrapper {
+.footer {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   background-color: transparent;
-  color: hsla(0,0%,20%,1.0);
-  /* color: rgba( 45, 55, 65, .85 );          ALTERNATIVE FONT-COLOR*/
-  width: 100%;
-  height: 150px;
+  width: 80%;
+  min-height: 100px;
+  padding: 20px;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.footer svg {
+  font-size: 40px;
+  margin: 10px;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a:hover {
-  color: rgb(0, 0, 0);
-}
-a {
-  color: hsla(0,0%,20%,1.0);
-  font-size: 13px;
-  /* color: rgba( 45, 55, 65, .85 );           ALTERNATIVE COLOR*/
-  text-decoration: none;
-}
-h5 {
-    font-style: italic;
-    font-weight: 500;
-    font-size: 13px;
-    text-align: center;
-  }
 </style>

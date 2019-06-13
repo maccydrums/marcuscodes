@@ -2,11 +2,11 @@
   <div class="wrapper">
     <h1>Marcus Andersson</h1>
     <h4>Frontend developer</h4>
-    <vue-typed-js :strings="['Under construction...']">
+    <!-- <img src="/backend.jpg" alt="coffee header"> -->
+    <!-- <vue-typed-js :strings="['Under construction...']">
       <h3><span class="typing"></span></h3>
-    </vue-typed-js>
-    <!-- <h2>Want to get in contact?</h2> -->
-    <h2>Let's <strong>talk!</strong></h2>
+    </vue-typed-js> -->
+    <!-- <h2>Let's <strong>talk!</strong></h2> -->
   </div>
 </template>
 
@@ -21,16 +21,24 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: transparent;
+    justify-content: flex-start;
+    background-image: url('/coffee.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
     /* color: white; */
     /* color: rgba( 45, 55, 65, .85 ); */
     width: 100%;
-    height: 100%;
+    min-height: 750px;
+  }
+  .wrapper img {
+    margin-top: 0px;
   }
   h1 {
+    margin-top: 150px;
     font-size: 60px;
     font-weight: 500;
+    color: hsla(0,0%,20%,1.0);
   }
   h2 {
     font-weight: 500;
@@ -53,7 +61,8 @@ export default {
     margin-top: -5px;
     font-weight: 500;
     font-size: 25px;
-    width: 35%;
+    width: 31%;
+    color: hsla(0,0%,20%,1.0);
   }
   @media screen and (max-width: 500px) {
   .wrapper {
