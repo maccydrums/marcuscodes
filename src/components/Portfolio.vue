@@ -12,27 +12,22 @@
           <img src="/Porsche.png" alt="screenshot of project">
         </a> -->
         <hooper>
+          <!-- <slide>
+            <a href="#" target="_blank">
+              <img src="/Porsche2.png" alt="screenshot of project">
+            </a>
+          </slide> -->
           <slide>
             <a href="#" target="_blank">
-              <img src="/Porsche.png" alt="screenshot of project">
+              <img src="/Porsche - tablet (kopia).png" alt="screenshot of project">
             </a>
           </slide>
-          <slide>
-            <a href="#" target="_blank">
-              <img src="/Porsche - tablet.png" alt="screenshot of project">
-            </a>
-          </slide>
-          <slide>
-            <a href="#" target="_blank">
-              <img src="/Porsche - mobile.png" style="background-size: cover;" alt="screenshot of project">
-            </a>
-          </slide>
-          <hooper-pagination slot="hooper-addons"></hooper-pagination>
+          <!-- <hooper-pagination slot="hooper-addons"></hooper-pagination> -->
         </hooper>
       </div>
       <div class="thumbnail item">
         <a href="#" target="_blank">
-          <img src="/TMA Guld.png" alt="screenshot of project">
+          <img src="/TMA Guld.png" alt="screenshot of project" style="width: 95%; margin-left: 10px;">
         </a>
       </div>
     </div>
@@ -97,9 +92,11 @@
 .item {
   box-shadow: rgb(195, 195, 195) 1px 1px 8px;
   height: 380px;
-  width: 460px;
+  width: 485px;
+  vertical-align: middle;
 }
 .hooper {
+  width: 100%;
   height: 100%;
 }
 img {

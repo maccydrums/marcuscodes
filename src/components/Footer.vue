@@ -25,7 +25,7 @@ export default {
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  width: 80%;
+  width: 100%;
   min-height: 100px;
   padding: 20px;
 }
