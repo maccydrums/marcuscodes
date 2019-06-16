@@ -17,14 +17,14 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-image: url('/coffee.jpg');
+    background-image: url('/a1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
     /* color: white; */
     /* color: rgba( 45, 55, 65, .85 ); */
     width: 100%;
-    min-height: 750px;
+    min-height: 850px;
   }
   .wrapper img {
     margin-top: 0px;
@@ -46,8 +46,8 @@ export default {
     font-weight: 500;
   }
   h4 {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid rgb(187, 187, 187);
+    border-bottom: 1px solid rgb(187, 187, 187);
     text-align: center;
     text-transform: uppercase;
     word-spacing: 3px;
@@ -56,7 +56,7 @@ export default {
     margin-top: -5px;
     font-weight: 500;
     font-size: 25px;
-    width: 31%;
+    width: 30%;
     color: hsla(0,0%,20%,1.0);
   }
   @media screen and (max-width: 1024px) {
@@ -72,7 +72,7 @@ export default {
   h1 {
     font-size: 37px;
     font-weight: 500;
-    margin-top: 180px;
+    margin-top: 200px;
   }
   h2 {
     font-size: 22px;
