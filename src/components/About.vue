@@ -1,9 +1,13 @@
 <template>
   <div class="about">
     <h1>About</h1>
-    <div class="main-content">
-      <img src="/4D68A3A2-27C5-46F8-B166-00AF9497A5D4.jpg">
-      <div class="main-footer">
+    <div class="columns is-variable is-4 grid-xl">
+      <div class="column">
+        <figure class="image card" style="max-width: 508px; max-height: 594px;">
+          <img src="/4D68A3A2-27C5-46F8-B166-00AF9497A5D4.jpg">
+        </figure>
+      </div>
+      <figure class="column">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           <br>
@@ -11,11 +15,13 @@
           <br>
           <br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
         </p>
-        <h2>
-          Let's
-          <strong>talk!</strong>
-        </h2>
-        <div class="social-media">
+        <figure class="column has-text-centered">
+          <h2>
+            Let's
+            <strong>talk!</strong>
+          </h2>
+        </figure>
+        <figure class="social-media has-text-centered">
           <li class="pv3 ph2 ma0 link grow">
             <a href="http://www.instagram.com/marcusanderssson_" target="_blank">
               <font-awesome-icon :icon="['fab', 'instagram']" size="3x"/>
@@ -36,8 +42,8 @@
               <font-awesome-icon :icon="['fa', 'envelope']" size="3x"/>
             </a>
           </li>
-        </div>
-      </div>
+        </figure>
+      </figure>
     </div>
   </div>
 </template>
@@ -58,42 +64,22 @@ export default {
   background-color: transparent;
   color: hsla(0, 0%, 20%, 1);
   /* color: rgba( 45, 55, 65, .85 );          ALTERNATIVE FONT-COLOR*/
-  width: 80%;
+  width: 90%;
   min-height: 450px;
-  margin-top: 35px;
+  margin-top: 80px;
   padding: 20px;
 }
 h1 {
   font-size: 40px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 h2 {
   font-size: 25px;
   font-weight: 500;
-  margin-top: 50px;
+  margin-top: 160px;
 }
-.main-content {
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-  background-color: transparnent;
-  width: 100%;
-  height: 550px;
-}
-.main-content img {
-  width: 410px;
-  height: 480px;
-  margin-right: 30px;
-}
-.main-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.social-media {
-  margin-top: 8px;
-}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -110,5 +96,10 @@ a {
   font-size: 13px;
   /* color: rgba( 45, 55, 65, .85 );           ALTERNATIVE COLOR*/
   text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  h2 {
+    margin-top: 40px;
+  }
 }
 </style>

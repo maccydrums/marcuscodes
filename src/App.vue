@@ -124,7 +124,7 @@ body {
   background-color: #f7f7f7;
   font-weight: 700;
 }  */
-@media screen and (min-width: 1400px) {
+/* @media screen and (min-width: 1400px) {
   #app {
     height: 650px;
   }
@@ -133,6 +133,6 @@ body {
   #app {
     height: 650px;
   }
-}
+} */
 
 </style>

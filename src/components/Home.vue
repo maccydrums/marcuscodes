@@ -2,11 +2,6 @@
   <div class="wrapper">
     <h1>Marcus Andersson</h1>
     <h4>Frontend developer</h4>
-    <!-- <img src="/backend.jpg" alt="coffee header"> -->
-    <!-- <vue-typed-js :strings="['Under construction...']">
-      <h3><span class="typing"></span></h3>
-    </vue-typed-js> -->
-    <!-- <h2>Let's <strong>talk!</strong></h2> -->
   </div>
 </template>
 
@@ -35,7 +30,7 @@ export default {
     margin-top: 0px;
   }
   h1 {
-    margin-top: 150px;
+    margin-top: 170px;
     font-size: 60px;
     font-weight: 500;
     color: hsla(0,0%,20%,1.0);
@@ -64,13 +59,20 @@ export default {
     width: 31%;
     color: hsla(0,0%,20%,1.0);
   }
+  @media screen and (max-width: 1024px) {
+    h4 {
+      width: 45%;
+    }
+  }
   @media screen and (max-width: 500px) {
   .wrapper {
-    margin-top: 50px;
+    background-position: center;
+    background-position-x: -480px;
   }
   h1 {
     font-size: 37px;
     font-weight: 500;
+    margin-top: 180px;
   }
   h2 {
     font-size: 22px;
