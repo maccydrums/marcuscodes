@@ -5,7 +5,7 @@
       <div class="column">
         <figure class="image card">
           <a href="https://github.com/maccydrums/tmaguld" target="_blank">
-            <img src="/TMA GULD.png"> 
+            <img src="/TMA-Guld.png"> 
           </a>
         </figure>
       </div>

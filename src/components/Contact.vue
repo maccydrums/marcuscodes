@@ -32,7 +32,7 @@
 
       <input type="hidden" name="_subject" value="Website contact">
       <input type="text" name="_gotcha" style="display:none">
-      <input type="hidden" name="_next" value="//localhost:8080">
+      <input type="hidden" name="_next" value="//marcuscodes.se">
 
       <div class="field">
         <label class="label">Subject</label>

@@ -4,7 +4,7 @@
     <div class="columns is-variable is-4 grid-xl">
       <div class="column">
         <figure class="image card" style="max-width: 508px; max-height: 594px;">
-          <img src="/4D68A3A2-27C5-46F8-B166-00AF9497A5D4.jpg">
+          <img src="/marcus.jpg">
         </figure>
       </div>
       <figure class="column">
