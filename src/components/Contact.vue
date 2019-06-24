@@ -19,14 +19,14 @@
       <div class="field">
         <label class="label">Full Name</label>
         <div class="control">
-          <input class="input" type="text" name="Name">
+          <input class="input" type="text" name="Name" required="">
         </div>
       </div>
 
       <div class="field">
         <label class="label">Email</label>
         <div class="control">
-          <input class="input" type="email" name="_replyto">
+          <input class="input" type="email" name="_replyto" required="">
         </div>
       </div>
 
