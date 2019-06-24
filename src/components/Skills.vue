@@ -1,27 +1,28 @@
 <template>
   <div class="skills">
-    <h1>Skills</h1>
-    <div class="columns is-tablet is-variable is-4 grid-xl has-text-centered">
+    <h1>Services</h1>
+    <div class="columns is-tablet is-variable is-4 grid-xl">
       <div class="column">
         <figure class="image card">
           <img src="/front.png">
         </figure>
         <h3>FRONT END DEVELOPMENT</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Front end development is vital when establishing your online brand. No one wants to do business with someone with a hideous website. My goal is to create a beautiful, responsive design for all of my projects. To do this I'm using technologies that I'm familiar with including HTML, CSS, CSS animations, grid, vanilla JavaScript(ES6), Vue.js (my go to framework), React and Angular.js (basic understanding). I'm also using CSS-frameworks such as Bulma and Bootstrap.</p>
       </div>
       <div class="column">
         <figure class="image card">
           <img src="/ux.jpg">
         </figure>
         <h3>UX/UI DESIGN</h3>
-        <p>Lorem ipsum dolor sit amet, sconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Coming soon.</p>
+        <!-- <p>User experience is critical when you're developing a product for a client. </p> -->
       </div>
       <div class="column">
         <figure class="image card">
           <img src="/backend.jpg">
         </figure>
         <h3>BACK END DEVELOPMENT</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Coming soon.</p>
       </div>
     </div>
   </div>
@@ -33,7 +34,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .skills {
   display: flex;
@@ -62,6 +62,17 @@ h3 {
   width: 100%;
   text-align: center;
   font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .columns {
+    flex-direction: column;
+  }
+  p {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 500px) {
   h1 {

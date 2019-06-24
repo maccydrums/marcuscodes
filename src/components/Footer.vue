@@ -1,14 +1,6 @@
 <template>
   <div class="footer">
-    <i class="fab fa-vuejs"></i>
-    <i class="fab fa-react"></i>
-    <i class="fab fa-angular"></i>
-    <i class="fab fa-git-square"></i>
-    <i class="fab fa-npm"></i>
-    <i class="fab fa-node"></i>
-    <i class="fab fa-js"></i>
-    <i class="fab fa-docker"></i>
-    <i class="fab fa-digital-ocean"></i>
+    <h3>© Copyright 2019 Marcus Andersson. All rights reserved.</h3>
   </div>
 </template>
 
@@ -24,19 +16,19 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  background-color: transparent;
+  background-color: rgba(180, 180, 180, 0.2);
   width: 100%;
   min-height: 100px;
   padding: 20px;
 }
-.footer svg {
-  font-size: 40px;
-  margin: 10px;
-}
 @media screen and (max-width: 500px) {
-  .footer svg {
-    font-size: 30px;
+  .footer h3 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer h3 {
+    font-size: 13px;
   }
 }
 </style>

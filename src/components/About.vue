@@ -8,12 +8,13 @@
         </figure>
       </div>
       <figure class="column">
+        <h1 style="font-size:30px; margin-top: 0px;">Hi, I'm Marcus!</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          <br>
-          <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          <br>
-          <br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
+          I'm a creative purpose-driven Front End Developer based in Växjö, Sweden with focus on making online experiences memorable.
+          <br/><br/>
+          I started studying Front End Development last summer and fell in love with both coding and UI-design right away. I've got one more year left in school and this fall I'm going to do my internship at <a href="https://www.meetod.se/" target="_blank">Meetod</a> in Växjö.
+          <br/><br/>
+          Take a look at my projects and feel free to contact me with any requests or questions. In terms of work ethic, challenges keep me going. If you have an idea, let me know and I'll find a way to build it.
         </p>
         <figure class="column has-text-centered">
           <h2>
@@ -77,9 +78,16 @@ h1 {
 h2 {
   font-size: 25px;
   font-weight: 500;
-  margin-top: 160px;
+  margin-top: 100px;
 }
-
+p {
+  font-size: 18px;
+}
+p a {
+  font-size: 18px;
+  color: #01B5B4;
+  font-weight: 600;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -88,14 +96,22 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a:hover {
+li a:hover {
   color: rgb(0, 0, 0);
 }
-a {
+li a {
   color: hsla(0, 0%, 20%, 1);
   font-size: 13px;
   /* color: rgba( 45, 55, 65, .85 );           ALTERNATIVE COLOR*/
   text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  .columns {
+    flex-direction: column;
+  }
+  p, p a {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 500px) {
   h2 {
