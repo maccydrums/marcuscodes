@@ -1,6 +1,6 @@
 # marcuscodes
 ```
-#v1 of my personal website built with Vue.js
+v1 of my personal website built with Vue.js
 ```
 
 ### Customize configuration
