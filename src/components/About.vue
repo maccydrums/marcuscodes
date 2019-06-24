@@ -14,7 +14,7 @@
           <br/><br/>
           I started studying Front End Development last summer and fell in love with both coding and UI-design right away. I've got one more year left in school and this fall I'm going to do my internship at <a href="https://www.meetod.se/" target="_blank">Meetod</a> in Växjö.
           <br/><br/>
-          Take a look at my projects and feel free to contact me with any requests or questions. In terms of work ethic, challenges keep me going. If you have an idea, let me know and I'll find a way to build it.
+          Take a look at my projects and feel free to contact me with any requests or questions. In terms of work ethic, challenges keep me going. So if you have an idea, let me know and I'll find a way to build it.
         </p>
         <figure class="column has-text-centered">
           <h2>
@@ -24,23 +24,23 @@
         </figure>
         <figure class="social-media has-text-centered">
           <li class="pv3 ph2 ma0 link grow">
+            <a href="https://twitter.com/maccydrums">
+              <font-awesome-icon :icon="['fab', 'twitter']" size="3x" style="color: #38A1F3;"/>
+            </a>
+          </li>
+          <li class="pv3 ph2 ma0 link grow">
             <a href="http://www.instagram.com/marcusanderssson_" target="_blank">
-              <font-awesome-icon :icon="['fab', 'instagram']" size="3x"/>
+              <font-awesome-icon :icon="['fab', 'instagram']" size="3x" style="color: rgb(225, 52, 95);"/>
             </a>
           </li>
           <li class="pv3 ph2 ma0 link grow">
             <a href="https://www.linkedin.com/in/marcus-andersson-78aa2316a/" target="_blank">
-              <font-awesome-icon :icon="['fab', 'linkedin-in']" size="3x"/>
+              <font-awesome-icon :icon="['fab', 'linkedin']" size="3x" style="color: rgb(13, 117, 181);"/>
             </a>
           </li>
           <li class="pv3 ph2 ma0 link grow">
             <a href="http://www.github.com/maccydrums" target="_blank">
               <font-awesome-icon :icon="['fab', 'github']" size="3x"/>
-            </a>
-          </li>
-          <li class="pv3 ph2 ma0 link grow">
-            <a href="mailto:marcusprivat@live.com">
-              <font-awesome-icon :icon="['fa', 'envelope']" size="3x"/>
             </a>
           </li>
         </figure>

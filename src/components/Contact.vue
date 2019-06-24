@@ -10,7 +10,7 @@
       <strong>Hit me up!</strong>
       <br/>
       <br/>
-      If you're interested in any of my web development services or would like to
+      If you're interested in working with me or would like to
       speak about a job offer, please complete the contact form. I'll get back
       to you as soon as possible to discuss your submission.
     </p>
