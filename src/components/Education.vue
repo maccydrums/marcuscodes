@@ -215,7 +215,7 @@ ul li {
     margin-top: 10px;
   }
   ul li {
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 35px;
     margin-top: 5px;
   }

@@ -46,6 +46,7 @@ export default {
   width: 90%;
   min-height: 350px;
   margin-top: 80px;
+  margin-bottom: 30px;
   padding: 20px;
 }
 h1 {
