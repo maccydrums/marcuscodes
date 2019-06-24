@@ -51,7 +51,7 @@ export default {
   /* color: rgba( 45, 55, 65, .85 );          ALTERNATIVE FONT-COLOR*/
   width: 90%;
   min-height: 550px;
-  margin-top: 80px;
+  margin-top: 40px;
   padding: 20px;
 }
 .image {

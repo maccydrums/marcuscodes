@@ -1,51 +1,152 @@
 <template>
-  <div class="wrapper is-mobile">
-    <h1>Marcus Andersson</h1>
-    <h4>Frontend developer</h4>
+  <div class="parallax-section">
+    <div class="parallax-child-section">
+      <section class="fw-main-row" id="frontlashID">
+        <div class="wrapper">
+          <h1>Marcus Andersson</h1>
+          <h4>Frontend developer</h4>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
 <style scoped>
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background-image: url('/a1.jpg');
-
-    position:relative;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /*background-repeat: no-repeat;
-    background-position: center;  */
-    /* color: white; */
-    /* color: rgba( 45, 55, 65, .85 ); */
-    width: 100%;
-    min-height: 750px;
-  }
-  .wrapper img {
-    margin-top: 0px;
-  }
-  h1 {
-    margin-top: 150px;
-    font-size: 60px;
-    font-weight: 500;
-    color: hsla(0,0%,20%,1.0);
-	  animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+.parallax-section {
+  position: relative;
+  width: 100%;
+  height: 750px;
 }
-  @keyframes focus-in-expand {
+.parallax-child-section {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 750px;
+}
+@media screen and (max-width: 1024px) {
+  .parallax-section {
+    position: relative;
+    width: 100%;
+    height: 1324px;
+  }
+  .parallax-child-section {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1324px;
+  }
+  #frontlashID {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: 1;
+    background-attachment: scroll !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .parallax-section {
+    position: relative;
+    width: 100%;
+    height: 1024px;
+  }
+  .parallax-child-section {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1024px;
+  }
+  #frontlashID {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: 1;
+    background-attachment: scroll !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .parallax-section {
+    position: relative;
+    width: 100%;
+    height: 812px;
+  }
+  .parallax-child-section {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 812px;
+  }
+  #frontlashID {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: 1;
+    background-attachment: scroll !important;
+  }
+}
+#frontlashID {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0);
+  will-change: transform;
+  z-index: 1;
+}
+.fw-main-row {
+  background-attachment: scroll;
+  background-image: url("/a1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 750px;
+}
+.wrapper img {
+  margin-top: 0px;
+}
+h1 {
+  margin-top: 150px;
+  font-size: 60px;
+  font-weight: 500;
+  color: hsla(0, 0%, 20%, 1);
+  animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+}
+@keyframes focus-in-expand {
   0% {
     letter-spacing: -0.5em;
     filter: blur(12px);
@@ -56,45 +157,45 @@ export default {
     opacity: 1;
   }
 }
-
-  h2 {
-    font-weight: 500;
-    font-size: 25px;
-    margin-bottom: 10px;
-    margin-top: 40px;
+h2 {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+h3 {
+  text-align: center;
+  font-weight: 500;
+}
+h4 {
+  border-top: 1px solid rgb(187, 187, 187);
+  border-bottom: 1px solid rgb(187, 187, 187);
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  padding: 8px 0 6px 0;
+  letter-spacing: 2px;
+  margin-top: -5px;
+  font-weight: 500;
+  font-size: 25px;
+  width: 30%;
+  color: hsla(0, 0%, 20%, 1);
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    min-height: 1300px;
   }
-  h3 {
-    text-align: center;
-    font-weight: 500;
+  h1 {
+    margin-top: 250px;
+    font-size: 60px;
   }
   h4 {
-    border-top: 1px solid rgb(187, 187, 187);
-    border-bottom: 1px solid rgb(187, 187, 187);
-    text-align: center;
-    text-transform: uppercase;
-    word-spacing: 3px;
-    padding: 8px 0 6px 0;
-    letter-spacing: 2px;
-    margin-top: -5px;
-    font-weight: 500;
-    font-size: 25px;
-    width: 30%;
-    color: hsla(0,0%,20%,1.0);
+    width: 45%;
   }
-  @media screen and (max-width: 1024px) {
-    .wrapper {
-      min-height: 1300px;
-    }
-    h1 {
-      margin-top: 250px;
-    }
-    h4 {
-      width: 45%;
-    }
-  }
-  @media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 500px) {
   .wrapper {
-    background-position: center;
     background-position-x: -450px;
     min-height: 850px;
   }
@@ -124,9 +225,9 @@ export default {
     width: 90%;
   }
 }
-  @media screen and (min-width: 1400px) {
-    .wrapper h2 {
-      margin-bottom: -120px;
-    }
+@media screen and (min-width: 1400px) {
+  .wrapper h2 {
+    margin-bottom: -120px;
   }
+}
 </style>
