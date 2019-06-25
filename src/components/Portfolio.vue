@@ -3,30 +3,30 @@
     <h1>Portfolio</h1>
     <div class="columns is-tablet is-variable is-4 grid-xl">
       <div class="column">
-        <figure class="image card">
+        <figure class="image card" v-lazy-container="{ selector: 'img' }">
           <a href="https://github.com/maccydrums/tmaguld" target="_blank">
-            <img src="/TMA-Guld.png"> 
+            <img data-src="/TMA-Guld.png"> 
           </a>
         </figure>
       </div>
       <div class="column">
-        <figure class="image card">
-          <img src="/Porsche - tablet (kopia).png">
+        <figure class="image card" v-lazy-container="{ selector: 'img' }">
+          <img data-src="/Porsche - tablet (kopia).png">
         </figure>
       </div>
     </div>
     <div class="columns is-tablet is-variable is-4 grid-xl">
       <div class="column">
-        <figure class="image card">
+        <figure class="image card" v-lazy-container="{ selector: 'img' }">
           <a href="https://github.com/0skar0/ReactProjectNHL" target="_blank">
-           <img src="/nhl.png">
+           <img data-src="/nhl.png">
           </a>
         </figure>
       </div>
       <div class="column">
-        <figure class="image card">
+        <figure class="image card" v-lazy-container="{ selector: 'img' }">
           <a href="https://www.youtube.com/watch?v=TvoXGrYouPc" target="_blank">
-           <img src="/ux1.png">
+           <img data-src="/ux1.png">
           </a>
         </figure>
       </div>
@@ -35,6 +35,7 @@
 </template>
 
 <script>
+
 export default {
   name: "portfolio",
 };

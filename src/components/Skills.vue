@@ -3,23 +3,23 @@
     <h1>Services</h1>
     <div class="columns is-tablet is-variable is-4 grid-xl">
       <div class="column">
-        <figure class="image card">
-          <img src="/front.png">
+        <figure class="image card" v-lazy-container="{ selector: 'img' }">
+          <img data-src="/front.png">
         </figure>
         <h3>FRONT END DEVELOPMENT</h3>
         <p>Front end development is vital when establishing your online brand. No one wants to do business with someone with a hideous website. My goal is to create a beautiful, responsive design for all of my projects. To do this I'm using technologies that I'm familiar with including HTML, CSS, CSS animations, grid, vanilla JavaScript(ES6), Vue.js (my go to framework), React and Angular.js (basic understanding). I'm also using CSS-frameworks such as Bulma and Bootstrap.</p>
       </div>
       <div class="column">
-        <figure class="image card">
-          <img src="/ux.jpg">
+        <figure class="image card" v-lazy-container="{ selector: 'img' }">
+          <img data-src="/ux.jpg">
         </figure>
         <h3>UX/UI DESIGN</h3>
         <p>Coming soon.</p>
         <!-- <p>User experience is critical when you're developing a product for a client. </p> -->
       </div>
       <div class="column">
-        <figure class="image card">
-          <img src="/backend.jpg">
+        <figure class="image card" v-lazy-container="{ selector: 'img' }">
+          <img data-src="/backend.jpg">
         </figure>
         <h3>BACK END DEVELOPMENT</h3>
         <p>Coming soon.</p>
