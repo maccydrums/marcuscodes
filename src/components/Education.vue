@@ -145,6 +145,42 @@ export default {
     background-attachment: scroll !important;
   }
 }
+@media screen and (max-width: 380px) {
+  .parallax-section {
+    position: relative;
+    width: 100%;
+    height: 740px;
+  }
+  .parallax-child-section {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 740px;
+  }
+  #frontlashID {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: 1;
+    background-attachment: scroll !important;
+  }
+  .education {
+    margin-top: 50px !important;
+  }
+  .education-header {
+    margin-bottom: 0px !important;
+  }
+  ul li {
+    font-size: 23px !important;
+  }
+}
 #frontlashID {
   position: fixed;
   display: block;

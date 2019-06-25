@@ -225,6 +225,12 @@ h4 {
     width: 90%;
   }
 }
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 35px;
+    margin-top: 200px;
+  }
+}
 @media screen and (min-width: 1400px) {
   .wrapper h2 {
     margin-bottom: -120px;
