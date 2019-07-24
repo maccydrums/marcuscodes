@@ -29,7 +29,10 @@ export default {
     Portfolio,
     Contact,
     Footer,
-  }
+  },
+  // methods: setTimeout(function(){
+	// 	$('body').addClass('loaded');
+	// }, 3000)
 }
 </script>
 

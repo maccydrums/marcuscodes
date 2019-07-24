@@ -7,7 +7,7 @@
           <img data-src="/front.png">
         </figure>
         <h3>FRONT END DEVELOPMENT</h3>
-        <p>Front end development is vital when establishing your online brand. No one wants to do business with someone with a hideous website. My goal is to create a beautiful, responsive design for all of my projects. To do this I'm using technologies that I'm familiar with including HTML, CSS, CSS animations, grid, vanilla JavaScript(ES6), Vue.js (my go to framework), React and Angular.js (basic understanding). I'm also using CSS-frameworks such as Bulma and Bootstrap.</p>
+        <p>Front end development is vital when establishing your online brand. No one wants to do business with someone with a hideous website. My goal is to create a beautiful, responsive design for all of my projects. To do this I'm using technologies that I'm familiar with including HTML, CSS, CSS animations, grid, vanilla JavaScript(ES6), Vue.js (my go to framework), React and Angular.js (basic understanding).</p>
       </div>
       <div class="column">
         <figure class="image card" v-lazy-container="{ selector: 'img' }">

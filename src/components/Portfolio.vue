@@ -31,6 +31,22 @@
         </figure>
       </div>
     </div>
+    <div class="columns is-tablet is-variable is-4 grid-xl">
+      <div class="column">
+        <figure class="image card" v-lazy-container="{ selector: 'img' }">
+          <a href="https://github.com/maccydrums/marcuscodes" target="_blank">
+           <img data-src="/marcuscodes.png">
+          </a>
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="image card" v-lazy-container="{ selector: 'img' }">
+          <a href="https://maccydrums.github.io/currency-converter" target="_blank">
+           <img data-src="/currency-converter.png">
+          </a>
+        </figure>
+      </div>
+    </div>
   </div>
 </template>
 

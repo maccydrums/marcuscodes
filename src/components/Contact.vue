@@ -11,7 +11,7 @@
         <br>
         <br>If you're interested in working with me or would like to
         speak about a job offer, please complete the contact form. I'll get back
-        to you as soon as possible to discuss your submission.
+        to you as soon as possible to discuss your request.
       </p>
 
       <form action="https://formspree.io/marcusprivat@live.com" method="POST">
