@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div id="contact">
     <h1>Contact</h1>
     <div class="contact-content">
       <p>
@@ -94,7 +94,7 @@ export default {
 </script>
 
 <style scoped>
-.contact {
+#contact {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -130,7 +130,7 @@ export default {
 label {
   font-size: 18px;
   font-weight: 600;
-  font-family: "Avenir", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 textarea {
@@ -144,7 +144,7 @@ button {
   width: 120px;
   height: 45px;
   font-size: 18px;
-  font-family: "Avenir", sans-serif;
+  font-family: "Nunito", sans-serif;
   background-color: #3273dc;
 }
 h1 {
@@ -165,7 +165,7 @@ p {
   p {
     width: 100%;
   }
-  .contact {
+  #contact {
     width: 100%;
     min-height: 350px;
     margin-top: 80px;

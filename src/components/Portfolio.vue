@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio">
+  <div id="portfolio">
     <h1>Portfolio</h1>
     <div class="columns is-tablet is-variable is-4 grid-xl">
       <div class="column">
@@ -58,7 +58,7 @@ export default {
 </script>
 
 <style scoped>
-.portfolio {
+#portfolio {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

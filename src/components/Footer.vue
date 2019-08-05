@@ -20,6 +20,7 @@ export default {
   width: 100%;
   min-height: 100px;
   padding: 20px;
+  color: #333333!important;
 }
 @media screen and (max-width: 500px) {
   .footer h3 {

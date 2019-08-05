@@ -1,5 +1,5 @@
 <template>
-  <div class="parallax-section">
+  <div id="parallax-section">
     <div class="parallax-child-section">
       <section class="fw-main-row" id="frontlashID">
         <div class="wrapper">
@@ -16,8 +16,9 @@ export default {};
 </script>
 
 <style scoped>
-.parallax-section {
+#parallax-section {
   position: relative;
+  margin-top: 70px;
   width: 100%;
   height: 750px;
 }
@@ -140,7 +141,7 @@ export default {};
   margin-top: 0px;
 }
 h1 {
-  margin-top: 150px;
+  margin-top: 180px;
   font-size: 60px;
   font-weight: 500;
   color: hsla(0, 0%, 20%, 1);

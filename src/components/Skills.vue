@@ -1,5 +1,5 @@
 <template>
-  <div class="skills">
+  <div id="skills">
     <h1>Services</h1>
     <div class="columns is-tablet is-variable is-4 grid-xl">
       <div class="column">
@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style scoped>
-.skills {
+#skills {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

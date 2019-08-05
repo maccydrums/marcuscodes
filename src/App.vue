@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Navbar/>
     <Home/>
     <About/>
     <Skills/>
@@ -18,10 +19,12 @@ import Contact from './components/Contact.vue';
 import Portfolio from './components/Portfolio.vue';
 import Footer from './components/Footer.vue';
 import Education from './components/Education.vue';
+import Navbar from './components/Navbar.vue';
 
 export default {
   name: 'app',
   components: {
+    Navbar,
     Home,
     About,
     Skills,
@@ -41,12 +44,11 @@ export default {
 body {
   /* background-color:#343a40; */
   background-color: white;
-  color: hsla(0,0%,20%,1.0);
+  color: rgba(51, 51, 51, 0.322);
   /* background-color: hsla(0,0%,98%,1.0);        ALTERNATIVE COLOR*/
 }
 #app {
-  /* font-family: 'Nunito', sans-serif; */
-  font-family: 'Avenir', san-serif;
+  font-family: 'Nunito', san-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 1000px;

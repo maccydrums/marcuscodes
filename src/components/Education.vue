@@ -207,7 +207,7 @@ export default {
   justify-content: flex-start;
   width: 100%;
   min-height: 650px;
-  margin-top: 50px;
+  margin-top: 80px;
   padding: 20px;
   color: white;
 }
@@ -245,15 +245,18 @@ ul li {
   }
 }
 @media screen and (max-width: 500px) {
+  h1 {
+    margin-top: 10px;
+  }
   .education-header svg {
     margin: 5px;
     font-size: 35px;
     margin-top: 10px;
   }
   ul li {
-    font-size: 24px;
+    font-size: 21px!important;
     margin-left: 35px;
-    margin-top: 5px;
+    margin-top: 0px;
   }
 }
 </style>

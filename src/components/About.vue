@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div id="about">
     <h1>About</h1>
     <div class="columns is-variable is-4 grid-xl">
       <div class="column">
@@ -24,7 +24,7 @@
         </figure>
         <figure class="social-media has-text-centered">
           <li class="pv3 ph2 ma0 link grow">
-            <a href="https://twitter.com/maccydrums">
+            <a href="https://twitter.com/maccydrums" target="_blank">
               <font-awesome-icon :icon="['fab', 'twitter']" size="3x" style="color: #38A1F3;"/>
             </a>
           </li>
@@ -57,7 +57,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.about {
+#about {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -114,6 +114,9 @@ li a {
   }
 }
 @media screen and (max-width: 500px) {
+  #about {
+    margin-top: 100px;
+  }
   h2 {
     margin-top: 40px;
   }
