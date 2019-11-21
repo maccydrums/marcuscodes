@@ -33,6 +33,10 @@ export default {
     Contact,
     Footer,
   },
+
+  mounted() {
+    this.$ga.page('/')
+  }
   // methods: setTimeout(function(){
 	// 	$('body').addClass('loaded');
 	// }, 3000)
