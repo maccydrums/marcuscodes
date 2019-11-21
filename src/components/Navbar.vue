@@ -61,6 +61,7 @@
           <span></span>
           <span></span>
           <span></span>
+          
         </span>
       </div>
       <div id="navMenu" class="navbar-menu has-text-centered" v-bind:class="{'is-active': isOpen}">
@@ -76,16 +77,23 @@
   </nav>
 </template>
 <script>
+import { Slide } from "vue-burger-menu";
 export default {
   data: function() {
     return {
       isOpen: false
     };
+  },
+  components: {
+    Slide,
   }
 };
 </script>
 
 <style scoped>
+.right {
+  display: none;
+}
 .navbar {
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -126,6 +134,9 @@ a {
 }
 }
 @media screen and (max-width: 500px) {
+  .right {
+    display:block;
+  }
   .navbar {
     padding: 0;
     background-color: white;

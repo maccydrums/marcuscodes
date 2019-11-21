@@ -8,6 +8,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import VueLazyload from 'vue-lazyload';
 import VueScrollTo from 'vue-scrollto';
 
+import VueAnalytics from 'vue-analytics'
+
  
 library.add(
   faInstagram,
@@ -19,7 +21,36 @@ library.add(
 
 Vue.use(VueLazyload);
 Vue.use(VueTypedJs);
+Vue.use(VueAnalytics, {
+  id: 'UA-153117821-1'
+})
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+Vue.component('zap-slideout', {
+  template: '#zap-slideout',
+  data: () => ({
+    openerText: 'Open',
+    isOpen: false,
+    menu: [ 'Home', 'Work', 'Contact' ]
+  }),
+  methods: {
+    open() {
+      this.openerText = 'Close';
+      this.isOpen = true;
+    },
+    close() {
+      this.openerText = 'Open';
+      this.isOpen = false;
+    },
+    toggle() {
+      if (this.isOpen) {
+        this.close();
+      } else {
+        this.open();
+      }
+    }
+  }
+});
 
 Vue.use(VueScrollTo, {
   container: "body",
